@@ -16,7 +16,11 @@ Asegúrate de tener instalado:
 
 Instálalo con:
 ```bash
+# Instlación con un gestor de paquetes recomendado
 pipx install uv
+
+# Intalación de uv como un standalone en Windows.
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ````
 
 ---
