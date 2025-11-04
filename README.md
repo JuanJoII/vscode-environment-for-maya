@@ -74,6 +74,9 @@ import sys
 # Agregar la ruta del proyecto para importar módulos propios
 sys.path.append(r"ruta\del\proyecto")
 
+# Agrega la ruta de los site-packages del entorno virtual generado por uv para sincronizar las dependencias que descargues en el proyecto con maya
+sys.path.append(r"ruta\del\proyecto\.venv\Lib\site-packages")
+
 # Abrir el puerto para comunicación con VSCode
 if not cmds.commandPort(":4434", query=True):
     cmds.commandPort(name=":4434")
