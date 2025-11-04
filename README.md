@@ -83,6 +83,7 @@ if not cmds.commandPort(":4434", query=True):
 ```
 
 💡 **Tip:** Usa doble barra `\\` o prefijo `r""` para las rutas en Windows.
+💡 **Tip:** Si no ves la carpeta `.venv` en tu proyecto, sigue el tutorial hasta la ejecución del test, para cuando ejecutes, `uv` generara el entorno automaticamente.
 
 ---
 
