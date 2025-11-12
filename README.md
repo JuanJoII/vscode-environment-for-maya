@@ -7,7 +7,6 @@ Este entorno permite escribir y ejecutar código Python para **Autodesk Maya** d
 Asegúrate de tener instalado:
 - [Python](https://www.python.org/downloads/) (misma versión que usa Maya)
 - [VSCode](https://code.visualstudio.com/)
-- [pipx](https://pypa.github.io/pipx/) (recomendado para instalar herramientas aisladas)
 
 ---
 
@@ -16,7 +15,7 @@ Asegúrate de tener instalado:
 
 Instálalo con:
 ```bash
-pipx install uv
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ````
 
 ---
