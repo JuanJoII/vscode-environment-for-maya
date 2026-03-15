@@ -52,7 +52,7 @@ Si utilizas alguna de estas herramientas populares:
 
 ---
 
-## 1️⃣ Instalación de `uv`
+## 2️⃣ Instalación de `uv`
 [uv](https://github.com/astral-sh/uv) es una herramienta moderna para manejar entornos Python de forma **rápida** y **eficiente**.
 
 Instálalo con:
@@ -62,7 +62,7 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 
 ---
 
-## 2️⃣ (Opcional) Instalación de `ruff`
+## 3️⃣ (Opcional) Instalación de `ruff`
 
 [ruff](https://github.com/astral-sh/ruff) es un linter y formateador de código extremadamente rápido, útil para mantener un estilo consistente.
 
@@ -78,7 +78,7 @@ pipx install ruff
 
 ---
 
-## 3️⃣ Configurar la versión de Python de Maya
+## 4️⃣ Configurar la versión de Python de Maya
 
 Maya utiliza su propia versión de Python. Para verificarla, abre la **Consola de Python** dentro de Maya y ejecuta:
 
@@ -94,7 +94,7 @@ Con esa versión:
 
 ---
 
-## 4️⃣ Configuración de `userSetup.py`
+## 5️⃣ Configuración de `userSetup.py`
 
 Para que VSCode pueda enviar el código a Maya, es necesario habilitar un **puerto de escucha** en Maya.
 
@@ -143,7 +143,7 @@ Cualquier cambio podría romper la conexión y el flujo de trabajo.
 
 ---
 
-## 5️⃣ Ejecución del código desde VSCode
+## 6️⃣ Ejecución del código desde VSCode
 
 Con todo configurado, ya puedes ejecutar código en Maya:
 
