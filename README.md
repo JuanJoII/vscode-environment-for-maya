@@ -7,6 +7,48 @@ Este entorno permite escribir y ejecutar código Python para **Autodesk Maya** d
 Asegúrate de tener instalado:
 - [Python](https://www.python.org/downloads/) (misma versión que usa Maya)
 - [VSCode](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/install/) o [GitHub CLI](https://cli.github.com/) (Opcional pero útil para el manejo del repositorio)
+---
+## 1️⃣ Clonar el repositorio
+
+Este repositorio ya incluye una estructura de archivos y configuraciones listas para que puedas enfocarte exclusivamente en escribir el código que deseas ejecutar dentro de Maya.
+
+Puedes clonar el proyecto de estas tres formas:
+
+### Opción 1 – Usando la terminal (recomendado)
+
+Si tienes instalado [Git](https://git-scm.com/downloads) o el [GitHub CLI](https://cli.github.com/), ejecuta uno de estos comandos en la carpeta donde quieras guardar el proyecto:
+
+```bash
+# Con Git
+git clone https://github.com/JuanJoII/vscode-environment-for-maya.git
+
+# Con GitHub CLI
+gh repo clone JuanJoII/vscode-environment-for-maya
+```
+
+### Opción 2 – Descarga directa (sin instalar nada)
+
+1. Entra a la página del repositorio:  
+   https://github.com/JuanJoII/vscode-environment-for-maya
+2. Haz clic en el botón verde **Code** (arriba a la derecha)
+3. Selecciona **Download ZIP**
+
+### Opción 3 – Usando una interfaz gráfica
+
+Si utilizas alguna de estas herramientas populares:
+
+- [GitHub Desktop](https://desktop.github.com/)
+- [GitKraken](https://www.gitkraken.com/)
+- [SourceTree](https://www.sourcetreeapp.com/)
+- entre otras…
+
+1. Abre la aplicación
+2. Busca la opción **Clone repository** / **Clonar repositorio**
+3. Pega esta URL cuando te la solicite:  
+   ```
+   https://github.com/JuanJoII/vscode-environment-for-maya.git
+   ```
 
 ---
 
